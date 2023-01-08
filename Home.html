@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourFav Tour Guide</title>
+    <link rel="icon" href="./imgs/tourGuide.jpg" type="image/icon type">
+    <link rel="stylesheet" href="./css/rdPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+</head>
+
+<body style="background-color: #212121;">
+  <!-- header -->
+  <nav>
+    <div class="container">
+      <div class="logo">
+        <p class="h1">Tour Guide <img src="./imgs/tourGuide.jpg"></p>
+        
+      </div>
+    
+    <div class="menu">
+    <a href="#" class="is-active">Home</a>
+    <a href="#">Travel</a>
+    <a href="./About.html">About</a>
+    <a href="./ContactUs.html">Contact Us</a>
+    </div>
+    
+    <button class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>  
+  </nav>
+  <div class="menu2">
+    <a href="#" class="is-active">Home</a>
+    <a href="#">Travel</a>
+    <a href="./About.html">About</a>
+    <a href="./ContactUs.html">Contact Us</a>
+    </div>
+ <!-- slider -->  
+   <div class="wrap">
+    <div id="arrow-left" class="arrow"></div>
+
+    <div id="slider">
+        <div class="slide slide1">
+            <div class="slide-content">
+                <h1>EXPLORE YOUR 
+                  <BR>
+                    FAVOURITE DESTINATION
+                </h1>
+            </div>
+        </div>
+
+        <div class="slide slide2">
+          <div class="slide-content">
+            <h1>EXPLORE YOUR 
+              <BR>
+                FAVOURITE DESTINATION
+            </h1>
+        </div>
+        </div>
+
+        <div class="slide slide3">
+          <div class="slide-content">
+            <h1>EXPLORE YOUR 
+              <BR>
+                FAVOURITE DESTINATION
+            </h1>
+        </div>
+        </div>
+
+        <div class="slide slide4">
+          <div class="slide-content">
+            <h1>EXPLORE YOUR 
+              <BR>
+                FAVOURITE DESTINATION
+            </h1>
+        </div>
+        </div>
+
+       <div class="slide slide5">
+        <div class="slide-content">
+          <h1>EXPLORE YOUR 
+            <BR>
+              FAVOURITE DESTINATION
+          </h1>
+      </div>
+       </div>
+
+       <div class="slide slide6">
+        <div class="slide-content">
+          <h1>EXPLORE YOUR 
+            <BR>
+              FAVOURITE DESTINATION
+          </h1>
+      </div>
+      </div>
+
+     <div class="slide slide7">
+      <div class="slide-content">
+        <h1>EXPLORE YOUR 
+          <BR>
+            FAVOURITE DESTINATION
+        </h1>
+    </div>
+     </div>
+
+    </div>
+
+    <div id="arrow-right" class="arrow"></div>
+      </div>  
+
+    <!-- Filter Section -->
+    <div style="background-color: #212121;">
+    <div class="container_filter" >
+      <h1 style="color: aliceblue;">Tour Categories</h1>
+      </div>
+      <div class="filter-box">
+          <button class="btn active" data-filter="all" style="background: rgb(102, 15, 30);
+          color: white">View All</button>
+          <button class="btn" data-filter="hotel" style="color: rgb(143, 26, 46);">Best Hotels</button>
+          <button class="btn" data-filter="island" style="color: rgb(143, 26, 46);">Best Island</button>
+          <button class="btn" data-filter="city" style="color: rgb(143, 26, 46);">Best Cities</button>
+          <button class="btn" data-filter="airline"style="color: rgb(143, 26, 46);">Best Airline</button>
+          <button class="btn active" id="addCart" style="background: rgb(102, 15, 30);
+          color: white" >Cart</button>
+          <!--<button class="btn active" id="clearCart" onclick="clearCart()" style="background: rgb(102, 15, 30);
+          color: white" >Clear Cart</button> -->
+      </div>
+  </div>
+</header>
+
+<div class="slide-container" style="background-color: #212121;" >
+  <section class="container" id="store-products">
+  
+  <div class="store-product hotel">
+      <img src="./imgs/1_1.jpg" alt="">
+      <div class="product-details">
+          <h2>Pickering House Inn</h2>
+          <p> <span>$39.99</span> $29.99</p>
+          <button class="add-cart">Add to Cart</button>
+      </div>
+  </div>
+  <div class="store-product island">
+      <img src="./imgs/2_1.jpg" alt="">
+      <div class="product-details">
+          <h2>Malé Island</h2>
+          <p> <span>$39.99</span> $29.99</p>
+          <button class="add-cart" >Add to Cart</button>
+      </div>
+  </div>
+  <div class="store-product hotel">
+    <img src="./imgs/1_3.jpg" alt="">
+    <div class="product-details">
+        <h2>Waldorf Astoria Maldives</h2>
+        <p> <span>$39.99</span> $29.99</p>
+        <button class="add-cart" >Add to Cart</button>
+    </div>
+</div>
+  <div class="store-product island">
+      <img src="./imgs/2_2.jpg" alt="">
+      <div class="product-details">
+          <h2>Hulhumalé Island</h2>
+          <p> <span>$39.99</span> $29.99</p>
+          <button class="add-cart" >Add to Cart</button>
+      </div>
+  </div>
+  <div class="store-product city">
+    <img src="./imgs/3_1.jpg" alt="">
+    <div class="product-details">
+        <h2>Thinadhoo City</h2>
+        <p> <span>$39.99</span> $29.99</p>
+        <button class="add-cart" >Add to Cart</button>
+    </div>
+</div>
+  <div class="store-product island">
+      <img src="./imgs/2_3.jpg" alt="">
+      <div class="product-details">
+          <h2> Biyadhoo Island</h2>
+          <p> <span>$39.99</span> $29.99</p>
+          <button class="add-cart" >Add to Cart</button>
+      </div>
+  </div>
+
+  <div class="store-product city">
+      <img src="./imgs/3_2.jpg" alt="">
+      <div class="product-details">
+          <h2>Funadhoo City</h2>
+          <p> <span>$39.99</span> $29.99</p>
+          <button class="add-cart" >Add to Cart</button>
+      </div>
+  </div>
+
+  <div class="store-product airline">
+      <img src="./imgs/4_1.jpg" alt="">
+      <div class="product-details">
+          <h2>Emirates</h2>
+          <p> <span>$39.99</span> $29.99</p>
+          <button class="add-cart" >Add to Cart</button>
+      </div>
+  </div>
+  <div class="store-product hotel">
+    <img src="./imgs/1_2.jpeg" alt="">
+    <div class="product-details">
+        <h2>Grace Hotel</h2>
+        <p> <span>$39.99</span> $29.99</p>
+        <button class="add-cart" >Add to Cart</button>
+    </div>
+</div>
+  <div class="store-product airline">
+      <img src="./imgs/4_2.jpg" alt="">
+      <div class="product-details">
+          <h2>Qatar Airways</h2>
+          <p> <span>$39.99</span> $29.99</p>
+          <button class="add-cart" >Add to Cart</button>
+      </div>
+  </div>
+  <div class="store-product island">
+    <img src="./imgs/2_4.jpg" alt="">
+    <div class="product-details">
+        <h2>Fihalhohi Island</h2>
+        <p> <span>$39.99</span> $29.99</p>
+        <button class="add-cart" >Add to Cart</button>
+    </div>
+</div>
+  <div class="store-product airline">
+      <img src="./imgs/4_3.jpeg" alt="">
+      <div class="product-details">
+          <h2>Singapore Airlines</h2>
+          <p> <span>$39.99</span> $29.99</p>
+          <button class="add-cart" >Add to Cart</button>
+      </div>
+  </div>
+</section>
+</div>
+</div>
+
+<i  id="topBtn" onclick="topFunction()" class='fa-solid fa-arrow-up'></i>
+ <!-- footer --> 
+    <footer>
+    <section  class="footer">
+      <div class="social">
+        <a href="https://www.instagram.com/safaa_elblasy"><i class="fab fa-instagram"></i></a>
+         <a href="https://www.pinterest.com/safaaelblasy013"><i class="fab fa-pinterest"></i></a>
+         <a href="https://twitter.com/SaFaaEsSayed"><i class="fab fa-twitter"></i></a>
+         <a href="https://www.linkedin.com/in/safaaelsayed"><i class="fab fa-linkedin"></i></a>
+      </div>
+        <ul class="list">
+          <li>
+            <a class="list">Home</a>
+          </li>
+           <li>
+            <a class="list">Contact</a>
+          </li>
+           <li>
+            <a class="list">About</a>
+          </li>
+        </ul>
+        <p class="copyright"> 
+          Copyright @ Tour Guide
+        </p>
+    </section>
+      </footer>
+
+
+  <script src="./Java Script/homeJs.js"></script>
+</body>
+</html>

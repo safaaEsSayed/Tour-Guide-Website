@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourFav Tour Guide</title>
+    <link rel="icon" href="./imgs/tourGuide.jpg" type="image/icon type">
+    <link rel="stylesheet" href="./css/rdPage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+
+</head>
+<body>
+  <!-- header -->
+    <nav>
+        <div class="container">
+          <div class="logo">
+            <p class="h1">Tour Guide <img style="height: 40px; margin-bottom: 10px;" src="./imgs/tourGuide.jpg"></p>
+            
+          </div>
+        
+          <div class="menu">
+            <a href="./Home.html" >Home</a>
+            <a href="./Home.html">Travel</a>
+            <a href="./About.html">About</a>
+            <a href="#" class="is-active">Contact Us</a>
+          </div>        
+        
+        <button class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        
+      </nav>
+      <div class="menu2">
+        <a href="#" class="is-active">Home</a>
+        <a href="#">Travel</a>
+        <a href="./About.html">About</a>
+        <a href="./ContactUs.html">Contact Us</a>
+        </div>
+
+<!-- Form -->
+<div class="wrapper">
+  <h2>Contact us</h2>
+  <div class="text text-danger" id="error_message">  
+  </div>
+  <form action="" id="myform" onsubmit = "return validate();">
+    <div class="input_field">
+        <input type="text" placeholder="Name" id="name">
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="Subject" id="subject">
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="Phone" id="phone">
+    </div>
+    <div class="input_field">
+        <input type="text" placeholder="Email" id="email">
+    </div>
+    <div class="input_field">
+        <textarea placeholder="Message" id="message"></textarea>
+    </div>
+    <div class="btn">
+        <input type="submit">
+    </div>
+  </form>
+</div>
+
+
+
+
+
+<!-- footer -->
+<footer>
+  <section  class="footer">
+    <div class="social">
+      <a href="https://www.instagram.com/safaa_elblasy"><i class="fab fa-instagram"></i></a>
+       <a href="https://www.pinterest.com/safaaelblasy013"><i class="fab fa-pinterest"></i></a>
+       <a href="https://twitter.com/SaFaaEsSayed"><i class="fab fa-twitter"></i></a>
+       <a href="https://www.linkedin.com/in/safaaelsayed"><i class="fab fa-linkedin"></i></a>
+    </div>
+      <ul class="list_contact">
+        <li>
+          <a class="list_contact" >Home</a>
+        </li>
+         <li>
+          <a class="list_contact" >Contact</a>
+        </li>
+         <li>
+          <a class="list_contact" >About</a>
+        </li>
+      </ul>
+      <p class="copyright"> 
+        Copyright @ Tour Guide
+      </p>
+  </section>
+    </footer>
+    
+
+
+ <script src="./Java Script/contactUsJs.js"></script>
+</body>
+</html>
